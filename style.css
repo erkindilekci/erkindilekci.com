@@ -38,6 +38,30 @@ nav ul li a:hover {
   font-size: 1.01rem;
 }
 
+@media (max-width: 650px) {
+  nav {
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 62);
+  }
+  .left {
+    font-size: 0.5rem;
+    margin: 20px 0;
+  }
+  .right {
+    margin-bottom: 20px;
+  }
+  nav ul {
+    justify-content: center;
+  }
+  nav ul li {
+    margin: 10px 10px;
+    font-size: 14px;
+  }
+}
+
 main hr {
   border: 0;
   background-color: #9c97f1;
@@ -73,6 +97,24 @@ main hr {
 
 .leftSection .button .resume-image {
   width: 75px;
+}
+
+@media (max-width: 600px) {
+  .leftSection {
+    font-size: 1.4rem;
+  }
+  .leftSection .button .resume-image {
+    width: 45px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 899px) {
+  .leftSection {
+    font-size: 1.8rem;
+  }
+  .leftSection .button .resume-image {
+    width: 55px;
+  }
 }
 
 .leftSection .btn {
@@ -292,7 +334,7 @@ main hr {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 50px;
   grid-row-gap: 50px;
   margin-bottom: 100px;
@@ -316,6 +358,12 @@ main hr {
   font-size: 1.5rem;
   margin-top: 10px;
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
 }
 
 .contactSection {
