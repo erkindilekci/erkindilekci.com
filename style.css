@@ -243,6 +243,12 @@ main hr {
   max-height: 340px;
 }
 
+.cbt-gif {
+  width: 190px;
+  height: fit-content;
+  max-height: 500px;
+}
+
 .insta-gif {
   width: 125px;
   height: fit-content;
