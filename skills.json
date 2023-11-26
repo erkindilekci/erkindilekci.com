@@ -4,6 +4,10 @@
         "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
     },
     {
+        "name": "Java",
+        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+    },
+    {
         "name": "Kotlin",
         "icon": "https://img.icons8.com/color/48/000000/kotlin.png"
     },
@@ -16,16 +20,16 @@
         "icon": "https://img.icons8.com/color/48/000000/git.png"
     },
     {
+        "name": "Spring Boot",
+        "icon": "https://raw.githubusercontent.com/erkindil/GithubRepositoryEdit/main/icons8-spring-boot.svg"
+    },
+    {
         "name": "Firebase",
         "icon": "https://img.icons8.com/color/48/000000/firebase.png"
     },
     {
         "name": "MongoDB",
         "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
-    },
-    {
-        "name": "Java",
-        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
     },
     {
         "name": "HTML5",
