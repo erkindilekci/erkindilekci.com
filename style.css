@@ -222,6 +222,26 @@ main hr {
   height: 100%;
 }
 
+.app-card-xml {
+  background-color: #361c4f;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  height: 100%;
+}
+
+.app-card-java {
+  background-color: #4f1c1c;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  height: 100%;
+}
+
 .gif-container {
   display: flex;
   justify-content: space-between;
@@ -276,6 +296,33 @@ main hr {
 }
 
 .app-card img.card-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.app-card-xml a {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.app-card-xml ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app-card-xml li {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.app-card-xml img.card-image {
   width: 100%;
   height: auto;
   object-fit: cover;
