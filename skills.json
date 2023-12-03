@@ -32,6 +32,14 @@
         "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
     },
     {
+        "name": "MySQL",
+        "icon": "https://raw.githubusercontent.com/erkindil/GithubRepositoryEdit/main/mysql.svg"
+    },
+    {
+        "name": "Oracle Database",
+        "icon": "https://raw.githubusercontent.com/erkindil/GithubRepositoryEdit/main/oracledb.png"
+    },
+    {
         "name": "HTML5",
         "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
     },
