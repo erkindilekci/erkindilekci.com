@@ -439,7 +439,7 @@ body.light-theme {
 }
 
 .skills__content {
-    width: fit-content;
+    width: 450px;
     background-color: var(--container-color);
     padding: 1.5rem;
     padding-left: 3.5rem;
@@ -712,7 +712,7 @@ body.light-theme {
 }
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 575px) {
     .nav__menu {
         padding: 1rem 1.5rem;
     }
@@ -730,6 +730,10 @@ body.light-theme {
 
     .about__info {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skills__content {
+        width: 380px;
     }
 
     .skills__box {
@@ -804,6 +808,7 @@ body.light-theme {
         margin: 0 auto;
     }
 }
+
 
 @media screen and (min-width: 767px) {
     .work__container {
