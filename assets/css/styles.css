@@ -733,7 +733,7 @@ body.light-theme {
     }
 
     .skills__content {
-        width: 360px;
+        width: max-content;
     }
 
     .skills__box {
