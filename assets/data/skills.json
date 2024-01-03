@@ -1,0 +1,7 @@
+{
+  "mobile": ["Android", "Java", "Kotlin", "Jetpack Compose", "Material UI", "Room", "WorkManager", "RxJava", "LiveData", "SharedPreferences", "Fragments", "Firebase","Dagger-Hilt", "Coroutines", "Ktor", "Koin", "DataStore","GraphQL", "Retrofit", "ViewBinding", "DataBinding"],
+  "backend": ["Java", "Spring Boot", "Spring Security", "MySQL", "Node.js", "Express", "PostgreSQL","Firebase", "MongoDB", "Mongoose", "GraphQL"],
+  "frontend": ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Redux", "Bootstrap", "Tailwind CSS"],
+  "tools": ["Git", "GitHub", "Intellij IDEA", "Android Studio", "VS Code", "Postman", "Heroku", "Netlify", "Vercel"]
+}
+
