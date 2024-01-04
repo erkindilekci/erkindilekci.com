@@ -561,7 +561,6 @@ body.light-theme {
     font-weight: var(--font-medium);
     text-align: center;
     margin-top: 10px;
-    mask-border: 0.25rem;
 }
 
 /* Swiper class */
@@ -761,7 +760,7 @@ body.light-theme {
         justify-content: center;
     }
     .skills__content {
-        padding: 2 rem 4rem;
+        padding: 2rem 4rem;
     }
 
     .services__container {
