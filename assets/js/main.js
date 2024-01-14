@@ -206,9 +206,9 @@ fetch('assets/data/skills.json')
 
         const skillsContainer = document.querySelector('.skills__container');
 
-        skillsContainer.appendChild(createSkillsContent('Mobile', data.mobile));
         skillsContainer.appendChild(createSkillsContent('Backend', data.backend));
         skillsContainer.appendChild(createSkillsContent('Frontend', data.frontend));
+        skillsContainer.appendChild(createSkillsContent('Mobile', data.mobile));
         skillsContainer.appendChild(createSkillsContent('Tools', data.tools));
     })
     .catch(error => {
