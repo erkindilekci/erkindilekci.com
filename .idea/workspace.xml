@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd75493d-9257-4e5c-b04f-ae57a7fc24bc" name="Changes" comment="Add package.json" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;erkindilekci&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0401ba64-97ae-439f-9dfd-c03f437e8730" />
+        <option name="url" value="https://github.com/erkindilekci/erkindilekci-portfolio-website.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ZzkZlo02Q7PnSq1CY53Np7tXGK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Erkin/WebstormProjects/erkindilekci-portfolio-website&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd75493d-9257-4e5c-b04f-ae57a7fc24bc" name="Changes" comment="" />
+      <created>1703432352808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703432352808</updated>
+      <workItem from="1703432353920" duration="142000" />
+      <workItem from="1703688377844" duration="1592000" />
+      <workItem from="1704257565114" duration="3443000" />
+      <workItem from="1704337271443" duration="482000" />
+      <workItem from="1704606650558" duration="578000" />
+      <workItem from="1705235563611" duration="91000" />
+      <workItem from="1705235820459" duration="182000" />
+      <workItem from="1705236160433" duration="38000" />
+      <workItem from="1705502042120" duration="449000" />
+      <workItem from="1705502504508" duration="2307000" />
+      <workItem from="1705768550779" duration="389000" />
+      <workItem from="1705769190138" duration="71000" />
+      <workItem from="1705769498776" duration="203000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update index.html">
+      <option name="closed" value="true" />
+      <created>1703432488082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703432488082</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update index.html">
+      <option name="closed" value="true" />
+      <created>1703689972830</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703689972830</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Code refactor">
+      <option name="closed" value="true" />
+      <created>1704259905388</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704259905388</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update style.css">
+      <option name="closed" value="true" />
+      <created>1704337716053</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704337716053</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update index.html">
+      <option name="closed" value="true" />
+      <created>1704337735083</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704337735083</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Delete favicon.png">
+      <option name="closed" value="true" />
+      <created>1704607219987</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704607219987</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update skills.json">
+      <option name="closed" value="true" />
+      <created>1705235647408</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705235647408</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update skills.json">
+      <option name="closed" value="true" />
+      <created>1705235984825</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705235984825</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update main.js">
+      <option name="closed" value="true" />
+      <created>1705235996912</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705235996912</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update skills.json">
+      <option name="closed" value="true" />
+      <created>1705236196966</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705236196966</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update styles.css">
+      <option name="closed" value="true" />
+      <created>1705504076916</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705504076916</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add package.json">
+      <option name="closed" value="true" />
+      <created>1705769622688</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705769622688</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Code refactor" />
+    <MESSAGE value="Update style.css" />
+    <MESSAGE value="Update index.html" />
+    <MESSAGE value="Delete favicon.png" />
+    <MESSAGE value="Update main.js" />
+    <MESSAGE value="Update skills.json" />
+    <MESSAGE value="Update styles.css" />
+    <MESSAGE value="Add package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add package.json" />
+  </component>
+</project>
