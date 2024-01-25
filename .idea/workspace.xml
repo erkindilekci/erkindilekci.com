@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd75493d-9257-4e5c-b04f-ae57a7fc24bc" name="Changes" comment="Add package.json" />
+    <list default="true" id="bd75493d-9257-4e5c-b04f-ae57a7fc24bc" name="Changes" comment="Code refactor" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +52,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Erkin\WebstormProjects\erkindilekci-portfolio-website" />
+      <recent name="C:\Users\Erkin\WebstormProjects\erkindilekci-portfolio-website\assets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,6 +79,7 @@
       <workItem from="1705768550779" duration="389000" />
       <workItem from="1705769190138" duration="71000" />
       <workItem from="1705769498776" duration="203000" />
+      <workItem from="1705769709079" duration="221000" />
     </task>
     <task id="LOCAL-00001" summary="Update index.html">
       <option name="closed" value="true" />
@@ -170,14 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705769622688</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Code refactor">
+      <option name="closed" value="true" />
+      <created>1705769828792</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705769828792</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Code refactor" />
     <MESSAGE value="Update style.css" />
     <MESSAGE value="Update index.html" />
     <MESSAGE value="Delete favicon.png" />
@@ -185,6 +199,7 @@
     <MESSAGE value="Update skills.json" />
     <MESSAGE value="Update styles.css" />
     <MESSAGE value="Add package.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add package.json" />
+    <MESSAGE value="Code refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code refactor" />
   </component>
 </project>
