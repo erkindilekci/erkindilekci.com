@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd75493d-9257-4e5c-b04f-ae57a7fc24bc" name="Changes" comment="Code refactor" />
+    <list default="true" id="bd75493d-9257-4e5c-b04f-ae57a7fc24bc" name="Changes" comment="Code refactor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/mixitup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/mixitup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +86,8 @@
       <workItem from="1705769190138" duration="71000" />
       <workItem from="1705769498776" duration="203000" />
       <workItem from="1705769709079" duration="221000" />
+      <workItem from="1706173135776" duration="512000" />
+      <workItem from="1706414157786" duration="1956000" />
     </task>
     <task id="LOCAL-00001" summary="Update index.html">
       <option name="closed" value="true" />
