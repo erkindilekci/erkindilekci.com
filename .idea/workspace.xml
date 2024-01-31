@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd75493d-9257-4e5c-b04f-ae57a7fc24bc" name="Changes" comment="Code refactor">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/mixitup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/mixitup.min.js" afterDir="false" />
+    <list default="true" id="bd75493d-9257-4e5c-b04f-ae57a7fc24bc" name="Changes" comment="Update styles.css">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +83,7 @@
       <workItem from="1705769498776" duration="203000" />
       <workItem from="1705769709079" duration="221000" />
       <workItem from="1706173135776" duration="512000" />
-      <workItem from="1706414157786" duration="1956000" />
+      <workItem from="1706414157786" duration="2189000" />
     </task>
     <task id="LOCAL-00001" summary="Update index.html">
       <option name="closed" value="true" />
@@ -193,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705769828792</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update styles.css">
+      <option name="closed" value="true" />
+      <created>1706416304361</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706416304361</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,9 +209,9 @@
     <MESSAGE value="Delete favicon.png" />
     <MESSAGE value="Update main.js" />
     <MESSAGE value="Update skills.json" />
-    <MESSAGE value="Update styles.css" />
     <MESSAGE value="Add package.json" />
     <MESSAGE value="Code refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code refactor" />
+    <MESSAGE value="Update styles.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update styles.css" />
   </component>
 </project>

@@ -1,7 +1,64 @@
 {
-  "backend": ["Java", "Spring Boot", "Spring Security", "MySQL", "Node.js", "Express.js", "Next.js", "PostgreSQL","Firebase", "MongoDB", "Mongoose", "GraphQL"],
-  "frontend": ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Redux", "Bootstrap", "Tailwind CSS"],
-  "mobile": ["Android", "Java", "Kotlin", "Jetpack Compose", "Material UI", "Room", "RecyclerView", "WorkManager", "RxJava", "LiveData", "SharedPreferences", "Fragments", "Firebase","Dagger-Hilt", "Coroutines", "Ktor", "Koin", "DataStore","GraphQL", "Retrofit", "ViewBinding", "DataBinding"],
-  "tools": ["Git", "GitHub", "Intellij IDEA", "Android Studio", "WebStorm", "VS Code", "Postman", "Heroku", "Netlify", "Vercel"]
+    "backend": [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "MySQL",
+        "Node.js",
+        "Express.js",
+        "Next.js",
+        "Kotlin",
+        "Ktor",
+        "PostgreSQL",
+        "MongoDB",
+        "Mongoose",
+        "GraphQL",
+        "Firebase"
+    ],
+    "frontend": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Redux",
+        "Bootstrap",
+        "Tailwind CSS"
+    ],
+    "mobile": [
+        "Android",
+        "Java",
+        "Kotlin",
+        "Jetpack Compose",
+        "Material UI",
+        "Room",
+        "RecyclerView",
+        "WorkManager",
+        "RxJava",
+        "LiveData",
+        "SharedPreferences",
+        "Fragments",
+        "Firebase",
+        "Dagger-Hilt",
+        "Coroutines",
+        "Ktor",
+        "Koin",
+        "DataStore",
+        "GraphQL",
+        "Retrofit",
+        "ViewBinding",
+        "DataBinding"
+    ],
+    "tools": [
+        "Git",
+        "GitHub",
+        "Intellij IDEA",
+        "Android Studio",
+        "WebStorm",
+        "VS Code",
+        "Postman",
+        "Heroku",
+        "Netlify",
+        "Vercel"
+    ]
 }
-
