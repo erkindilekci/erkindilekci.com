@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd75493d-9257-4e5c-b04f-ae57a7fc24bc" name="Changes" comment="Update styles.css">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +85,7 @@
       <workItem from="1705769709079" duration="221000" />
       <workItem from="1706173135776" duration="512000" />
       <workItem from="1706414157786" duration="2189000" />
+      <workItem from="1706951940020" duration="3069000" />
     </task>
     <task id="LOCAL-00001" summary="Update index.html">
       <option name="closed" value="true" />

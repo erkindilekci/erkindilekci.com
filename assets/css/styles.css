@@ -1,20 +1,20 @@
-/*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?familyPoppins:wght@400;500;600&displayswap");
 
-/*=============== VARIABLES CSS ===============*/
+/* VARIABLES CSS */
 :root {
     --header-height: 3.5rem;
 
-    /*========== Colors ==========*/
+    /* Colors */
     --first-color: #bc1052;
     --first-color-alt: #f377a7;
-    --title-color: #f4f0f1;
-    --text-color: #c4babb;
     --text-color-light: #918889;
-    --body-color: #1e0b0d;
-    --container-color: #281517;
+    --body-color: #fffafa;
+    --title-color: #2c2122;
+    --text-color: #605254;
+    --container-color: #fff;
 
-    /*========== Font and typography ==========*/
+    /* Font and typography */
     --body-font: "Poppins", sans-serif;
     --biggest-font-size: 1.75rem;
     --h1-font-size: 1.5rem;
@@ -25,11 +25,11 @@
     --smaller-font-size: 0.75rem;
     --tiny-font-size: 0.625rem;
 
-    /*========== Font weight ==========*/
+    /* Font weight */
     --font-medium: 500;
     --font-semibold: 600;
 
-    /*========== z index ==========*/
+    /* z index */
     --z-tooltip: 10;
     --z-fixed: 100;
     --z-modal: 1000;
@@ -48,7 +48,7 @@
     }
 }
 
-/*=============== BASE ===============*/
+/* BASE */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -71,6 +71,20 @@ body {
     background-color: var(--body-color);
     color: var(--text-color);
     /* transition: 0.4s;  */
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --body-color: #1e0b0d;
+        --title-color: #f4f0f1;
+        --text-color: #c4babb;
+        --container-color: #281517;
+    }
+
+    body {
+        background-color: var(--body-color);
+        color: var(--text-color);
+    }
 }
 
 h1,
@@ -99,7 +113,7 @@ img {
     height: auto;
 }
 
-/*=============== THEME ===============*/
+/* THEME */
 .change-theme {
     font-size: 1.25rem;
     cursor: pointer;
@@ -111,7 +125,7 @@ img {
     color: var(--first-color);
 }
 
-/*========== Variables Dark theme ==========*/
+/* Variables Dark theme */
 body.light-theme {
     --title-color: #2c2122;
     --text-color: #605254;
@@ -119,10 +133,6 @@ body.light-theme {
     --container-color: #fff;
 }
 
-/*========== 
-    Color changes in some parts of 
-    the website, in light theme
-==========*/
 .light-theme .scroll-header {
     box-shadow: 0 2px 4px #03030319;
 }
@@ -179,7 +189,7 @@ body.light-theme {
     background-color: #796769;
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
+/* REUSABLE CSS CLASSES */
 .container {
     max-width: 968px;
     margin-left: 1rem;
@@ -216,7 +226,7 @@ body.light-theme {
     color: var(--text-color-light);
 }
 
-/*=============== HEADER & NAV===============*/
+/* HEADER & NAV*/
 .header {
     position: fixed;
     top: 0;
@@ -286,7 +296,7 @@ body.light-theme {
     box-shadow: 0 4px 4px #0A0A0A4C;
 }
 
-/*=============== HOME ===============*/
+/* HOME */
 .home__cotainer {
     position: relative;
     row-gap: 4.5rem;
@@ -399,7 +409,7 @@ body.light-theme {
     transform: rotate(-90deg);
 }
 
-/*=============== BUTTONS ===============*/
+/* BUTTONS */
 .button {
     display: inline-block;
     background-color: var(--first-color);
@@ -421,7 +431,7 @@ body.light-theme {
     color: var(--first-color);
 }
 
-/*=============== SKILLS ===============*/
+/* SKILLS */
 .skills__container {
     row-gap: 2rem;
     padding-top: 1rem;
@@ -478,7 +488,7 @@ body.light-theme {
     line-height: 18px;
 }
 
-/*=============== work ===============*/
+/* work */
 .work__container {
     padding-top: 1rem;
 }
@@ -541,7 +551,7 @@ body.light-theme {
     color: var(--body-color);
 }
 
-/*=============== TESTIMONIAL ===============*/
+/* TESTIMONIAL */
 .testimonial__card {
     background-color: var(--container-color);
     padding: 1rem 1rem;
@@ -570,7 +580,7 @@ body.light-theme {
     background-color: var(--first-color);
 }
 
-/*=============== CONTACT ===============*/
+/* CONTACT */
 .contact__container {
     row-gap: 3rem;
     padding-bottom: 3rem;
@@ -634,7 +644,7 @@ body.light-theme {
     transition: 0.4s;
 }
 
-/*=============== FOOTER ===============*/
+/* FOOTER */
 .footer {
     background-color: var(--first-color);
 }
@@ -683,7 +693,7 @@ body.light-theme {
     font-size: var(--smaller-font-size);
 }
 
-/*=============== SCROLL BAR ===============*/
+/* SCROLL BAR */
 ::-webkit-scrollbar {
     width: 0.6rem;
     border-radius: 0.5rem;
@@ -699,7 +709,7 @@ body.light-theme {
     background-color: #372F30FF;
 }
 
-/*=============== BREAKPOINTS ===============*/
+/* BREAKPOINTS */
 /* For small devices */
 @media screen and (max-width: 575px) {
     .nav__menu {
