@@ -13,7 +13,8 @@
         "MongoDB",
         "Mongoose",
         "GraphQL",
-        "Firebase"
+        "Firebase",
+        "Supabase"
     ],
     "frontend": [
         "HTML5",
