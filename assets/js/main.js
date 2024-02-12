@@ -224,7 +224,9 @@ fetch('assets/data/projects.json')
 
         projects.forEach(project => {
             const card = document.createElement('div');
-            card.classList.add('work__card', 'mix', project.category);
+            card.classList.add('work__card');
+            card.classList.add('mix');
+            card.classList.add(project.category);
 
             const image = document.createElement('img');
             if (project.image !== '') {
