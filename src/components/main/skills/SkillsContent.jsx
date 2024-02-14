@@ -11,7 +11,7 @@ function SkillsContent({title, skills}) {
     return (
         <div
             className="mx-6 flex w-auto flex-col items-center rounded-3xl p-6 shadow-lg transition-all max-w-[450px] bg-containerColorLightTheme dark:bg-containerColorDarkTheme">
-            <h3 className="mb-2 font-medium capitalize transition-all text-firstColor">{title}</h3>
+            <h3 className="mb-2 text-sm font-medium capitalize transition-all text-firstColor md:text-base">{title}</h3>
             <div className="grid grid-cols-2 gap-x-8 transition-all">
                 <div className="mx-auto grid items-start p-4 transition-all gap-1.5">
                     {firstHalf.map(skill => {

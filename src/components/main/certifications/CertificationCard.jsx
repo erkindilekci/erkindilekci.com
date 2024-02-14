@@ -6,7 +6,7 @@ function CertificationCard({certification}) {
                 <img src={certification.imageUrl} className="w-full rounded-md transition-all"
                      alt={certification.courseName}/>
             </a>
-            <h3 className="mb-10 pb-4 text-center text-base font-medium text-black transition-all mt-2.5 dark:text-gray-100 md:text-xl">{certification.courseName}</h3>
+            <h3 className="mb-16 pb-4 text-center text-base font-medium text-black transition-all mt-2.5 dark:text-gray-100 md:mb-10 md:text-xl">{certification.courseName}</h3>
         </div>
     );
 }

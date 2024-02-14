@@ -2,6 +2,7 @@ import {useState} from "react";
 import {BiBook, BiBriefcaseAlt2, BiCertification, BiHomeAlt, BiMessageSquareDetail} from 'react-icons/bi';
 import {Link} from 'react-scroll';
 
+// million-ignore
 function Nav() {
     const [activeLinkIndex, setActiveLinkIndex] = useState(0);
 
@@ -12,7 +13,7 @@ function Nav() {
 
     return (
         <div
-            className="fixed transition-all z-20 mb-4 md:mb-0 bottom-4 shadow-2xl flex items-center w-auto mx-auto rounded-full px-8 py-4 bg-[#EEDDDFCC] dark:bg-[#361C1ECC]">
+            className="fixed transition-all z-20 mb-0 bottom-4 shadow-2xl flex items-center w-auto mx-auto rounded-full px-8 py-4 bg-[#EEDDDFCC] dark:bg-[#361C1ECC]">
             <ul className="flex items-center justify-between space-x-6">
                 <li className={`cursor-pointer p-2 transition-all rounded-full ${activeLinkIndex === 0 && 'shadow-lg bg-gradient-to-b from-pink-600 to-pink-800'}`}>
                     <Link to="home" offset={-50} onClick={e => handleClick(e, 0)}>
