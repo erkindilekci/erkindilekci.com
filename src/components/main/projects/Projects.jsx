@@ -18,18 +18,18 @@ function Projects() {
                     className="mb-2 text-xs transition-all text-textColorLightTheme dark:text-textColorDarkTheme">My portfolio</span>
                 <h2 className="mb-10 text-center text-2xl font-semibold transition-all text-firstColor sm:text-xl">Projects</h2>
             </div>
-            <div className="mb-16 flex w-full items-center justify-center transition-all space-x-8">
+            <div className="mb-12 md:mb-16 flex w-full items-center justify-center transition-all space-x-8">
                 <button
                     onClick={() => handleClick(0, 'all')}
-                    className={`transition-all text-textColorLightTheme dark:text-textColorDarkTheme px-3 py-1 font-medium rounded-md ${activeButtonIndex === 0 && 'bg-firstColor text-bodyColorLightTheme dark:text-bodyColorDarkTheme'}`}>All
+                    className={`transition-all text-sm md:text-base text-textColorLightTheme dark:text-textColorDarkTheme px-3 py-1 font-medium rounded-md ${activeButtonIndex === 0 && 'bg-firstColor text-bodyColorLightTheme dark:text-bodyColorDarkTheme'}`}>All
                 </button>
                 <button
                     onClick={() => handleClick(1, 'web')}
-                    className={`transition-all text-textColorLightTheme dark:text-titleColorDarkTheme px-3 py-1 font-medium rounded-md ${activeButtonIndex === 1 && 'bg-firstColor text-bodyColorLightTheme dark:text-bodyColorDarkTheme'}`}>Web
+                    className={`transition-all text-sm md:text-base text-textColorLightTheme dark:text-titleColorDarkTheme px-3 py-1 font-medium rounded-md ${activeButtonIndex === 1 && 'bg-firstColor text-bodyColorLightTheme dark:text-bodyColorDarkTheme'}`}>Web
                 </button>
                 <button
                     onClick={() => handleClick(2, 'mobile')}
-                    className={`transition-all text-textColorLightTheme dark:text-titleColorDarkTheme px-3 py-1 font-medium rounded-md ${activeButtonIndex === 2 && 'bg-firstColor text-bodyColorLightTheme dark:text-bodyColorDarkTheme'}`}>Mobile
+                    className={`transition-all text-sm md:text-base text-textColorLightTheme dark:text-titleColorDarkTheme px-3 py-1 font-medium rounded-md ${activeButtonIndex === 2 && 'bg-firstColor text-bodyColorLightTheme dark:text-bodyColorDarkTheme'}`}>Mobile
                 </button>
             </div>
             <div className="grid grid-cols-1 gap-8 transition-all md:grid-cols-2 lg:grid-cols-3">
