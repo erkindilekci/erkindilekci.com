@@ -4,18 +4,18 @@ const skills = [
         "skills": [
             "Java",
             "Spring Boot",
-            "Spring Security",
-            "MySQL",
+            "Go",
             "Node.js",
-            "Express.js",
             "Next.js",
-            "Kotlin",
-            "Ktor",
+            "Express.js",
+            "MySQL",
             "PostgreSQL",
             "MongoDB",
+            "Kotlin",
+            "Ktor",
             "Mongoose",
             "GraphQL",
-            "Firebase"
+            "Firebase",
         ]
     },
     {

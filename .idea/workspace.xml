@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="17a8494f-05f8-4e9e-9792-9aa286c7225f" name="Changes" comment="Code refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/home/Scroll.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/home/Scroll.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/projects/ProjectContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/projects/ProjectContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/projects/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/data/skills.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/contact/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/home/Social.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/home/Social.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/nav/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/nav/Nav.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +100,9 @@
       <workItem from="1707819584628" duration="5926000" />
       <workItem from="1707833691271" duration="13224000" />
       <workItem from="1707879190706" duration="446000" />
-      <workItem from="1707895654141" duration="3249000" />
+      <workItem from="1707895654141" duration="3417000" />
+      <workItem from="1708058190934" duration="1047000" />
+      <workItem from="1708182503427" duration="1887000" />
     </task>
     <task id="LOCAL-00001" summary="Update package.json">
       <option name="closed" value="true" />
@@ -114,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707898114607</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Code refactor">
+      <option name="closed" value="true" />
+      <created>1707898953484</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707898953484</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
