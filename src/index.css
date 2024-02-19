@@ -9,3 +9,17 @@
         font-family: 'Poppins', sans-serif;
     }
 }
+
+::-webkit-scrollbar {
+    width: 0.6rem;
+    background-color: #EEDDDFCC; /* containerColorDarkTheme */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #bc1052; /* titleColorLightTheme */
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #605254; /* textColorLightTheme */
+}

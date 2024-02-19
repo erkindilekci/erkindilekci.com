@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="17a8494f-05f8-4e9e-9792-9aa286c7225f" name="Changes" comment="Code refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/data/skills.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/data/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/contact/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/home/Social.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/home/Social.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/nav/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/nav/Nav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +96,8 @@
       <workItem from="1707879190706" duration="446000" />
       <workItem from="1707895654141" duration="3417000" />
       <workItem from="1708058190934" duration="1047000" />
-      <workItem from="1708182503427" duration="1887000" />
+      <workItem from="1708182503427" duration="1923000" />
+      <workItem from="1708355482182" duration="740000" />
     </task>
     <task id="LOCAL-00001" summary="Update package.json">
       <option name="closed" value="true" />
@@ -128,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707898953484</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Code refactor">
+      <option name="closed" value="true" />
+      <created>1708184422238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708184422238</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
