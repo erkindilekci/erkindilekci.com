@@ -1,3 +1,6 @@
+import {BiMessageSquareDetail} from "react-icons/bi";
+import {Link} from "react-scroll";
+
 export default function Title() {
     const downloadCV = () => {
         window.location.href = "/ErkinDilekci.pdf";
@@ -17,10 +20,11 @@ export default function Title() {
                     className="mt-8 rounded-lg border-2 border-solid bg-transparent px-4 py-2 transition-all transition-colors border-firstColor text-titleColorLightTheme hover:bg-firstColorAlt dark:text-titleColorDarkTheme md:mt-10"
                     onClick={downloadCV}>Download CV
                 </button>
-                <button
-                    className="mt-4 rounded-lg px-4 text-black transition-all transition-colors bg-firstColor py-[0.55rem] text-titleColorLightTheme hover:bg-firstColorAlt dark:text-titleColorDarkTheme md:mt-6"
-                    onClick={downloadCV}>Contact Me
-                </button>
+                <Link to="contact" offset={-75}>
+                    <button
+                        className="mt-4 rounded-lg px-4 text-black transition-all transition-colors bg-firstColor py-[0.55rem] text-titleColorLightTheme hover:bg-firstColorAlt dark:text-titleColorDarkTheme md:mt-6">Contact Me
+                    </button>
+                </Link>
             </div>
         </article>
     );
