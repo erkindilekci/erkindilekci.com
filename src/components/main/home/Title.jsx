@@ -17,12 +17,12 @@ export default function Title() {
 
             <div className="flex flex-col items-center transition-all md:space-x-6 md:flex-row md:items-baseline">
                 <button
-                    className="mt-8 rounded-lg border-2 border-solid bg-transparent px-4 py-2 transition-all transition-colors border-firstColor text-titleColorLightTheme hover:bg-firstColorAlt dark:text-titleColorDarkTheme md:mt-10"
+                    className="mt-8 rounded-lg border-2 border-solid bg-transparent px-4 py-2 transition-all border-firstColor text-titleColorLightTheme hover:bg-firstColorAlt dark:text-titleColorDarkTheme md:mt-10"
                     onClick={downloadCV}>Download CV
                 </button>
                 <Link to="contact" offset={-75}>
                     <button
-                        className="mt-4 rounded-lg px-4 text-black transition-all transition-colors bg-firstColor py-[0.55rem] text-titleColorLightTheme hover:bg-firstColorAlt dark:text-titleColorDarkTheme md:mt-6">Contact Me
+                        className="mt-4 rounded-lg px-4 transition-all bg-firstColor py-[0.55rem] text-titleColorLightTheme hover:bg-firstColorAlt dark:text-titleColorDarkTheme md:mt-6">Contact Me
                     </button>
                 </Link>
             </div>

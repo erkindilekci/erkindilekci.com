@@ -18,7 +18,7 @@ function Projects() {
                     className="mb-2 text-xs transition-all text-textColorLightTheme dark:text-textColorDarkTheme">My portfolio</span>
                 <h2 className="mb-10 text-center text-2xl font-semibold transition-all text-firstColor sm:text-xl">Projects</h2>
             </div>
-            <div className="mb-12 md:mb-16 flex w-full items-center justify-center transition-all space-x-8">
+            <div className="mb-12 flex w-full items-center justify-center transition-all space-x-8 md:mb-16">
                 <button
                     onClick={() => handleClick(0, 'all')}
                     className={`transition-all text-sm md:text-base text-textColorLightTheme dark:text-textColorDarkTheme px-3 py-1 font-medium rounded-md ${activeButtonIndex === 0 && 'bg-firstColor text-bodyColorLightTheme dark:text-bodyColorDarkTheme'}`}>All
