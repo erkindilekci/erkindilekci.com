@@ -1,10 +1,35 @@
 import projects from "../../../assets/data/projects.js";
 import ProjectContainer from "./ProjectContainer.jsx";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 function Projects() {
     const [activeButtonIndex, setActiveButtonIndex] = useState(0);
     const [projectList, setProjectList] = useState(projects);
+    const [hasTouchScreen, setHasTouchScreen] = useState(false);
+
+    useEffect(() => {
+        let touchScreen = false;
+
+        if ("maxTouchPoints" in navigator) {
+            touchScreen = navigator.maxTouchPoints > 0;
+        } else if ("msMaxTouchPoints" in navigator) {
+            touchScreen = navigator.msMaxTouchPoints > 0;
+        } else {
+            let mQ = window.matchMedia && matchMedia("(pointer:coarse)");
+            if (mQ && mQ.media === "(pointer:coarse)") {
+                touchScreen = !!mQ.matches;
+            } else if ('orientation' in window) {
+                touchScreen = true;
+            } else {
+                let UA = navigator.userAgent;
+                touchScreen = (
+                    /\b(BlackBerry|webOS|iPhone|IEMobile)\b/i.test(UA) ||
+                    /\b(Android|Windows Phone|iPad|iPod)\b/i.test(UA)
+                );
+            }
+            setHasTouchScreen(touchScreen);
+        }
+    }, []);
 
     const handleClick = (index, category) => {
         setActiveButtonIndex(index);
@@ -33,7 +58,7 @@ function Projects() {
                 </button>
             </div>
             <div className="grid grid-cols-1 gap-8 transition-all md:grid-cols-2 lg:grid-cols-3">
-                {projectList.map(project => <ProjectContainer project={project}/>)}
+                {projectList.map(project => <ProjectContainer project={project} hasTouchScreen={hasTouchScreen}/>)}
             </div>
         </section>
     );
