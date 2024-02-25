@@ -1,5 +1,22 @@
 const projects = [
     {
+        title: 'Issue Tracker',
+        category: ['all', 'web'],
+        image: './projects/issuetracker.png',
+        technologies: [
+            'TypeScript',
+            'React',
+            'Tailwind CSS',
+            'Radix UI',
+            'Next.js',
+            'Next Auth',
+            'Google Authentication',
+            'Prisma',
+            'PostgreSQL'
+        ],
+        links: ['https://github.com/erkindilekci/issue-tracker', 'https://erkindilekci-issue-tracker.vercel.app']
+    },
+    {
         title: 'Vibe Station',
         category: ['all', 'web'],
         image: './projects/vibestation.png',
