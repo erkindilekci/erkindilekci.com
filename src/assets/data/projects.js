@@ -42,6 +42,21 @@ const projects = [
         ],
         links: ['https://github.com/erkindilekci/factopedia', 'https://erkindilekci-factopedia.netlify.app/']
     },
+
+    {
+        title: 'Food Order App',
+        category: ['all', 'web'],
+        image: './projects/foodorderapp.png',
+        technologies: [
+            'Vite',
+            'JavaScript',
+            'CSS',
+            'React',
+            'Node.js',
+            'Express.js',
+        ],
+        links: ['https://github.com/erkindilekci/food-order-app']
+    },
     {
         title: 'Boruto Book',
         category: ['all', 'mobile'],
