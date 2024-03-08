@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a8494f-05f8-4e9e-9792-9aa286c7225f" name="Changes" comment="Add Issue Tracker">
-      <change afterPath="$PROJECT_DIR$/public/projects/foodorderapp.png" afterDir="false" />
+    <list default="true" id="17a8494f-05f8-4e9e-9792-9aa286c7225f" name="Changes" comment="Add Food Order App">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/data/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/skills.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Erkin/WebstormProjects/erkindilekci-portfolio-website-son-hali/public/projects&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Erkin/WebstormProjects/react-typescript&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -110,7 +111,11 @@
       <workItem from="1708841421201" duration="20000" />
       <workItem from="1708864495301" duration="15000" />
       <workItem from="1708880771436" duration="660000" />
-      <workItem from="1708882128803" duration="169000" />
+      <workItem from="1708882128803" duration="297000" />
+      <workItem from="1708924764216" duration="233000" />
+      <workItem from="1708931257680" duration="16000" />
+      <workItem from="1709837334130" duration="155000" />
+      <workItem from="1709889997809" duration="661000" />
     </task>
     <task id="LOCAL-00001" summary="Update package.json">
       <option name="closed" value="true" />
@@ -192,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708881427814</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add Food Order App">
+      <option name="closed" value="true" />
+      <created>1708882400950</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708882400950</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +220,7 @@
     <MESSAGE value="Update ProjectContainer.jsx" />
     <MESSAGE value="Added meta tags to index.html" />
     <MESSAGE value="Add Issue Tracker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Issue Tracker" />
+    <MESSAGE value="Add Food Order App" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Food Order App" />
   </component>
 </project>
