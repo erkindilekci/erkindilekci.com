@@ -1,5 +1,42 @@
 const projects = [
     {
+        title: 'Visi Vault',
+        category: ['all', 'web'],
+        image: './projects/visivault.png',
+        technologies: [
+            'Java',
+            'Spring Boot',
+            'Spring Web',
+            'Spring Data JPA',
+            'Lombok',
+            'PostgreSQL',
+            'Vite',
+            'JavaScript',
+            'React',
+            'CSS'
+        ],
+        links: ['https://github.com/erkindilekci/visi-vault', 'https://visi-vault.netlify.app/']
+    },
+    {
+        title: 'Moviewise',
+        category: ['all', 'web'],
+        image: './projects/moviewise.png',
+        technologies: [
+            'Java',
+            'Spring Boot',
+            'Spring Web',
+            'Spring Data',
+            'Lombok',
+            'MongoDB',
+            'Vite',
+            'JavaScript',
+            'React',
+            'Bootstrap',
+            'CSS'
+        ],
+        links: ['https://github.com/erkindilekci/moviewise']
+    },
+    {
         title: 'Issue Tracker',
         category: ['all', 'web'],
         image: './projects/issuetracker.png',
@@ -15,6 +52,21 @@ const projects = [
             'PostgreSQL'
         ],
         links: ['https://github.com/erkindilekci/issue-tracker', 'https://erkindilekci-issue-tracker.vercel.app']
+    },
+    {
+        title: 'Linea',
+        category: ['all', 'web'],
+        image: './projects/linea.png',
+        technologies: [
+            'Vite',
+            'React',
+            'TypeScript',
+            'Rough.js',
+            'CSS',
+            'Vitest',
+            'Cypress',
+        ],
+        links: ['https://github.com/erkindilekci/linea', 'https://erkindilekci-linea.vercel.app/']
     },
     {
         title: 'Vibe Station',
@@ -42,9 +94,8 @@ const projects = [
         ],
         links: ['https://github.com/erkindilekci/factopedia', 'https://erkindilekci-factopedia.netlify.app/']
     },
-
     {
-        title: 'Food Order App',
+        title: 'Garnish',
         category: ['all', 'web'],
         image: './projects/foodorderapp.png',
         technologies: [
@@ -55,7 +106,21 @@ const projects = [
             'Node.js',
             'Express.js',
         ],
-        links: ['https://github.com/erkindilekci/food-order-app']
+        links: ['https://github.com/erkindilekci/garnish']
+    },
+    {
+        title: 'Place Picker',
+        category: ['all', 'web'],
+        image: './projects/placepicker.png',
+        technologies: [
+            'Vite',
+            'JavaScript',
+            'CSS',
+            'React',
+            'Node.js',
+            'Express.js',
+        ],
+        links: ['https://github.com/erkindilekci/place-picker']
     },
     {
         title: 'Boruto Book',
@@ -139,29 +204,29 @@ const projects = [
         ],
         links: ['https://github.com/erkindilekci/CryptoBalanceTracker']
     },
-    {
-        title: 'News App',
-        category: ['all', 'mobile'],
-        image: './projects/mmnews.png',
-        technologies: [
-            'Kotlin',
-            'XML',
-            'Multi-Module',
-            'Room',
-            'Coroutines',
-            'Flows',
-            'Clean Architecture',
-            'MVVM',
-            'Navigation',
-            'Dagger-Hilt',
-            'Retrofit',
-            'Gson',
-            'Caching',
-            'Data Binding',
-            'Glide'
-        ],
-        links: ['https://github.com/erkindilekci/NewsApp']
-    },
+    // {
+    //     title: 'News App',
+    //     category: ['all', 'mobile'],
+    //     image: './projects/mmnews.png',
+    //     technologies: [
+    //         'Kotlin',
+    //         'XML',
+    //         'Multi-Module',
+    //         'Room',
+    //         'Coroutines',
+    //         'Flows',
+    //         'Clean Architecture',
+    //         'MVVM',
+    //         'Navigation',
+    //         'Dagger-Hilt',
+    //         'Retrofit',
+    //         'Gson',
+    //         'Caching',
+    //         'Data Binding',
+    //         'Glide'
+    //     ],
+    //     links: ['https://github.com/erkindilekci/NewsApp']
+    // },
     {
         title: 'Vocabulary Book',
         category: ['all', 'mobile'],
@@ -203,87 +268,87 @@ const projects = [
         ],
         links: ['https://github.com/erkindilekci/ToDoBook']
     },
-    {
-        title: 'Text Book',
-        category: ['all', 'mobile'],
-        image: './projects/textbook.png',
-        technologies: [
-            'Kotlin',
-            'Jetpack Compose',
-            'Room',
-            'Clean Architecture',
-            'MVVM',
-            'Dagger-Hilt',
-            'Navigation',
-            'Coroutines',
-            'Flow',
-            'Unit Testing',
-            'Instrumented Testing',
-            'End-to-End Testing'
-        ],
-        links: ['https://github.com/erkindilekci/TextBook']
-    },
-    {
-        title: 'Pokemon Book',
-        category: ['all', 'mobile'],
-        image: './projects/pokemonbook.png',
-        technologies: [
-            'Kotlin',
-            'Jetpack Compose',
-            'Retrofit',
-            'Gson',
-            'OkHttp3',
-            'Coil',
-            'Navigation',
-            'MVVM',
-            'Coroutines',
-            'Flow',
-            'Dagger-Hilt',
-            'Timber',
-            'Palette'
-        ],
-        links: ['https://github.com/erkindilekci/PokemonBook']
-    },
-    {
-        title: 'Movie Book',
-        category: ['all', 'mobile'],
-        image: './projects/movie.png',
-        technologies: [
-            'Kotlin',
-            'Jetpack Compose',
-            'Coroutines',
-            'Flows',
-            'Dagger-Hilt',
-            'Retrofit',
-            'Gson',
-            'Paging3',
-            'MVVM',
-            'Navigation',
-            'Coil',
-            'Timber'
-        ],
-        links: ['https://github.com/erkindilekci/MovieBook']
-    },
-    {
-        title: 'Photo Book',
-        category: ['all', 'mobile'],
-        image: './projects/photobook.png',
-        technologies: [
-            'Kotlin',
-            'Jetpack Compose',
-            'Dagger-Hilt',
-            'Retrofit',
-            'Serialization',
-            'Coil',
-            'Room',
-            'Paging',
-            'Caching',
-            'Clean Architecture',
-            'MVVM',
-            'Navigation'
-        ],
-        links: ['https://github.com/erkindilekci/PhotoBook']
-    },
+    // {
+    //     title: 'Text Book',
+    //     category: ['all', 'mobile'],
+    //     image: './projects/textbook.png',
+    //     technologies: [
+    //         'Kotlin',
+    //         'Jetpack Compose',
+    //         'Room',
+    //         'Clean Architecture',
+    //         'MVVM',
+    //         'Dagger-Hilt',
+    //         'Navigation',
+    //         'Coroutines',
+    //         'Flow',
+    //         'Unit Testing',
+    //         'Instrumented Testing',
+    //         'End-to-End Testing'
+    //     ],
+    //     links: ['https://github.com/erkindilekci/TextBook']
+    // },
+    // {
+    //     title: 'Pokemon Book',
+    //     category: ['all', 'mobile'],
+    //     image: './projects/pokemonbook.png',
+    //     technologies: [
+    //         'Kotlin',
+    //         'Jetpack Compose',
+    //         'Retrofit',
+    //         'Gson',
+    //         'OkHttp3',
+    //         'Coil',
+    //         'Navigation',
+    //         'MVVM',
+    //         'Coroutines',
+    //         'Flow',
+    //         'Dagger-Hilt',
+    //         'Timber',
+    //         'Palette'
+    //     ],
+    //     links: ['https://github.com/erkindilekci/PokemonBook']
+    // },
+    // {
+    //     title: 'Movie Book',
+    //     category: ['all', 'mobile'],
+    //     image: './projects/movie.png',
+    //     technologies: [
+    //         'Kotlin',
+    //         'Jetpack Compose',
+    //         'Coroutines',
+    //         'Flows',
+    //         'Dagger-Hilt',
+    //         'Retrofit',
+    //         'Gson',
+    //         'Paging3',
+    //         'MVVM',
+    //         'Navigation',
+    //         'Coil',
+    //         'Timber'
+    //     ],
+    //     links: ['https://github.com/erkindilekci/MovieBook']
+    // },
+    // {
+    //     title: 'Photo Book',
+    //     category: ['all', 'mobile'],
+    //     image: './projects/photobook.png',
+    //     technologies: [
+    //         'Kotlin',
+    //         'Jetpack Compose',
+    //         'Dagger-Hilt',
+    //         'Retrofit',
+    //         'Serialization',
+    //         'Coil',
+    //         'Room',
+    //         'Paging',
+    //         'Caching',
+    //         'Clean Architecture',
+    //         'MVVM',
+    //         'Navigation'
+    //     ],
+    //     links: ['https://github.com/erkindilekci/PhotoBook']
+    // },
     {
         title: 'Tic Tac Go',
         category: ['all', 'mobile'],
@@ -334,57 +399,57 @@ const projects = [
         ],
         links: ['https://github.com/erkindilekci/GraphQLCountryExplorer']
     },
-    {
-        title: 'Chat Wave',
-        category: ['all', 'mobile'],
-        image: './projects/chatwave.png',
-        technologies: [
-            'Kotlin',
-            'Jetpack Compose',
-            'Coroutines',
-            'Flows',
-            'MVVM',
-            'Clean Architecture',
-            'Dagger-Hilt',
-            'Bluetooth Services',
-            'Broadcast Receivers'
-        ],
-        links: ['https://github.com/erkindilekci/ChatWave']
-    },
-    {
-        title: 'Podcast Sphere',
-        category: ['all', 'mobile'],
-        image: '',
-        technologies: [
-            'Kotlin',
-            'Jetpack Compose',
-            'Coroutines',
-            'Flows',
-            'Retrofit',
-            'Gson',
-            'Navigation',
-            'ExoPlayer',
-            'MVVM',
-            'Dagger-Hilt'
-        ],
-        links: ['https://github.com/erkindilekci/PodcastSphere']
-    },
-    {
-        title: 'Koin Crypto App',
-        category: ['all', 'mobile'],
-        image: '',
-        technologies: [
-            'Kotlin',
-            'XML',
-            'Fragment',
-            'Koin',
-            'MVVM',
-            'Coroutines',
-            'Retrofit',
-            'RecyclerView'
-        ],
-        links: ['https://github.com/erkindilekci/KoinCryptoApp']
-    }
+    // {
+    //     title: 'Chat Wave',
+    //     category: ['all', 'mobile'],
+    //     image: './projects/chatwave.png',
+    //     technologies: [
+    //         'Kotlin',
+    //         'Jetpack Compose',
+    //         'Coroutines',
+    //         'Flows',
+    //         'MVVM',
+    //         'Clean Architecture',
+    //         'Dagger-Hilt',
+    //         'Bluetooth Services',
+    //         'Broadcast Receivers'
+    //     ],
+    //     links: ['https://github.com/erkindilekci/ChatWave']
+    // },
+    // {
+    //     title: 'Podcast Sphere',
+    //     category: ['all', 'mobile'],
+    //     image: '',
+    //     technologies: [
+    //         'Kotlin',
+    //         'Jetpack Compose',
+    //         'Coroutines',
+    //         'Flows',
+    //         'Retrofit',
+    //         'Gson',
+    //         'Navigation',
+    //         'ExoPlayer',
+    //         'MVVM',
+    //         'Dagger-Hilt'
+    //     ],
+    //     links: ['https://github.com/erkindilekci/PodcastSphere']
+    // },
+    // {
+    //     title: 'Koin Crypto App',
+    //     category: ['all', 'mobile'],
+    //     image: '',
+    //     technologies: [
+    //         'Kotlin',
+    //         'XML',
+    //         'Fragment',
+    //         'Koin',
+    //         'MVVM',
+    //         'Coroutines',
+    //         'Retrofit',
+    //         'RecyclerView'
+    //     ],
+    //     links: ['https://github.com/erkindilekci/KoinCryptoApp']
+    // }
 ];
 
 export default projects;
