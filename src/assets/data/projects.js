@@ -15,7 +15,7 @@ const projects = [
             'React',
             'CSS'
         ],
-        links: ['https://github.com/erkindilekci/visi-vault', 'https://visi-vault.netlify.app/']
+        links: ['https://github.com/erkindilekci/visi-vault']
     },
     {
         title: 'Moviewise',
