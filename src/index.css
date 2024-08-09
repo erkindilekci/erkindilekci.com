@@ -10,6 +10,18 @@
     }
 }
 
+:root {
+    --inactive-bullet-color: black;
+}
+
+.dark {
+    --inactive-bullet-color: white;
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--inactive-bullet-color) !important;
+}
+
 ::-webkit-scrollbar {
     width: 0.6rem;
     background-color: #EEDDDFCC; /* containerColorDarkTheme */

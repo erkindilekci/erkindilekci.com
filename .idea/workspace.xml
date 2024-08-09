@@ -4,8 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a8494f-05f8-4e9e-9792-9aa286c7225f" name="Changes" comment="Add new projects">
+    <list default="true" id="17a8494f-05f8-4e9e-9792-9aa286c7225f" name="Changes" comment="Update projects.js">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/certifications/CertificationCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/certifications/CertificationCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/certifications/Certifications.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/certifications/Certifications.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/contact/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/home/Scroll.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/home/Scroll.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/home/Social.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/home/Social.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/home/Title.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/home/Title.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/nav/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/nav/Nav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/projects/ProjectContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/projects/ProjectContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/projects/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/skills/Skills.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/skills/SkillsContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/skills/SkillsContent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/skills/SkillsData.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/skills/SkillsData.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +72,8 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.1.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -96,7 +116,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
       </set>
     </attachedChunks>
   </component>
@@ -150,6 +170,8 @@
       <workItem from="1712297768494" duration="111000" />
       <workItem from="1712297947887" duration="20000" />
       <workItem from="1713265130286" duration="22000" />
+      <workItem from="1723192380643" duration="11004000" />
+      <workItem from="1723211446579" duration="231000" />
     </task>
     <task id="LOCAL-00001" summary="Update package.json">
       <option name="closed" value="true" />
@@ -255,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710671111102</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update projects.js">
+      <option name="closed" value="true" />
+      <created>1723192509992</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1723192509992</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +314,7 @@
     <MESSAGE value="Add Food Order App" />
     <MESSAGE value="Update skills.js" />
     <MESSAGE value="Add new projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new projects" />
+    <MESSAGE value="Update projects.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update projects.js" />
   </component>
 </project>

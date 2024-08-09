@@ -1,11 +1,11 @@
-import {useState} from "react";
+import { useState } from "react";
 
-function ProjectContainer({project, hasTouchScreen}) {
+function ProjectContainer({ project, hasTouchScreen }) {
     const [isHovering, setIsHovering] = useState(false);
 
     return (
         <div
-            className="flex overflow-hidden w-auto flex-col justify-between rounded-3xl p-6 shadow-lg transition-all max-w-72 bg-containerColorLightTheme dark:bg-containerColorDarkTheme"
+            className="flex overflow-hidden w-auto flex-col justify-between rounded-3xl p-6 shadow-lightTheme dark:shadow-darkTheme transition-all max-w-72 bg-containerColorLightTheme dark:bg-containerColorDarkTheme"
             onMouseEnter={() => !hasTouchScreen && setIsHovering(true)}
             onMouseLeave={() => !hasTouchScreen && setIsHovering(false)}
             onClick={() => hasTouchScreen && setIsHovering(isClicked => !isClicked)}
@@ -26,9 +26,9 @@ function ProjectContainer({project, hasTouchScreen}) {
                     <a href={link} target="_blank">
                         {index % 2 === 0
                             ? <button
-                                className="text-xs md:text-sm rounded-lg border-2 border-solid bg-transparent px-4 py-2 transition-all border-firstColor text-titleColorLightTheme hover:bg-firstColorAlt dark:text-titleColorDarkTheme md:mt-10">GitHub</button>
+                                className="text-xs md:text-sm rounded-lg border-2 border-solid bg-transparent px-4 py-2 transition-all border-textColorLightTheme dark:border-textColorDarkTheme text-textColorLightTheme hover:bg-firstColorAlt dark:hover:bg-[#434343] dark:text-textColorDarkTheme md:mt-10">GitHub</button>
                             : <button
-                                className="text-xs md:text-sm rounded-lg px-4 transition-all bg-firstColor py-[0.55rem] text-titleColorLightTheme hover:bg-firstColorAlt dark:text-titleColorDarkTheme md:mt-6">Live
+                                className="text-xs md:text-sm rounded-lg px-4 transition-all bg-textColorLightTheme dark:bg-textColorDarkTheme py-[0.55rem] text-textColorDarkTheme hover:bg-[#434343] dark:text-textColorLightTheme dark:hover:bg-firstColorAlt md:mt-6">Live
                                 Demo</button>
                         }
                     </a>

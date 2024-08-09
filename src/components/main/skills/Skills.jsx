@@ -9,7 +9,7 @@ function Skills() {
             <div className="flex flex-col items-center transition-all">
                 <span
                     className="mb-2 text-xs transition-all text-textColorLightTheme dark:text-textColorDarkTheme">My abilities</span>
-                <h2 className="mb-16 text-center text-2xl font-semibold transition-all text-firstColor sm:text-xl">Skills</h2>
+                <h2 className="mb-16 text-center text-2xl font-semibold transition-all text-titleColorLightTheme dark:text-gray-100 sm:text-xl">Skills</h2>
             </div>
             <div className="grid grid-cols-1 gap-8 transition-all lg:grid-cols-2">
                 {skills.map(skill => {

@@ -1,11 +1,13 @@
 import projects from "../../../assets/data/projects.js";
 import ProjectContainer from "./ProjectContainer.jsx";
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 
 function Projects() {
     const [activeButtonIndex, setActiveButtonIndex] = useState(0);
     const [projectList, setProjectList] = useState(projects);
     const [hasTouchScreen, setHasTouchScreen] = useState(false);
+
+    const filterButtonClasses = "className={`transition-all text-sm md:text-base px-3 py-1 font-medium rounded-md ${activeButtonIndex === 0 ? 'bg-textColorLightTheme dark:bg-textColorDarkTheme text-textColorDarkTheme dark:text-textColorLightTheme' : 'text-textColorLightTheme dark:text-textColorDarkTheme'}`}";
 
     useEffect(() => {
         let touchScreen = false;
@@ -41,20 +43,20 @@ function Projects() {
             <div className="flex flex-col items-center transition-all">
                 <span
                     className="mb-2 text-xs transition-all text-textColorLightTheme dark:text-textColorDarkTheme">My portfolio</span>
-                <h2 className="mb-10 text-center text-2xl font-semibold transition-all text-firstColor sm:text-xl">Projects</h2>
+                <h2 className="mb-10 text-center text-2xl font-semibold transition-all text-titleColorLightTheme dark:text-gray-100 sm:text-xl">Projects</h2>
             </div>
             <div className="mb-12 flex w-full items-center justify-center transition-all space-x-8 md:mb-16">
                 <button
                     onClick={() => handleClick(0, 'all')}
-                    className={`transition-all text-sm md:text-base text-textColorLightTheme dark:text-textColorDarkTheme px-3 py-1 font-medium rounded-md ${activeButtonIndex === 0 && 'bg-firstColor text-bodyColorLightTheme dark:text-bodyColorDarkTheme'}`}>All
+                    className={`transition-all text-sm md:text-base px-3 py-1 font-medium rounded-md ${activeButtonIndex === 0 ? 'bg-textColorLightTheme dark:bg-textColorDarkTheme text-textColorDarkTheme dark:text-textColorLightTheme' : 'text-textColorLightTheme dark:text-textColorDarkTheme'}`}>All
                 </button>
                 <button
                     onClick={() => handleClick(1, 'web')}
-                    className={`transition-all text-sm md:text-base text-textColorLightTheme dark:text-titleColorDarkTheme px-3 py-1 font-medium rounded-md ${activeButtonIndex === 1 && 'bg-firstColor text-bodyColorLightTheme dark:text-bodyColorDarkTheme'}`}>Web
+                    className={`transition-all text-sm md:text-base px-3 py-1 font-medium rounded-md ${activeButtonIndex === 1 ? 'bg-textColorLightTheme dark:bg-textColorDarkTheme text-textColorDarkTheme dark:text-textColorLightTheme' : 'text-textColorLightTheme dark:text-textColorDarkTheme'}`}>Web
                 </button>
                 <button
                     onClick={() => handleClick(2, 'mobile')}
-                    className={`transition-all text-sm md:text-base text-textColorLightTheme dark:text-titleColorDarkTheme px-3 py-1 font-medium rounded-md ${activeButtonIndex === 2 && 'bg-firstColor text-bodyColorLightTheme dark:text-bodyColorDarkTheme'}`}>Mobile
+                    className={`transition-all text-sm md:text-base px-3 py-1 font-medium rounded-md ${activeButtonIndex === 2 ? 'bg-textColorLightTheme dark:bg-textColorDarkTheme text-textColorDarkTheme dark:text-textColorLightTheme' : 'text-textColorLightTheme dark:text-textColorDarkTheme'}`}>Mobile
                 </button>
             </div>
             <div className="grid grid-cols-1 gap-8 transition-all md:grid-cols-2 lg:grid-cols-3">

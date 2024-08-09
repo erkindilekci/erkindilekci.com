@@ -1,8 +1,7 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import './index.css';
 import Header from './components/header/Header';
 import Main from './components/main/Main';
-import Footer from "./components/footer/Footer.jsx";
 
 export default function App() {
     const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
@@ -27,7 +26,7 @@ export default function App() {
         <div className={`${theme === 'dark' ? 'dark' : 'light'}`}>
             <Header theme={theme} toggleTheme={toggleTheme}/>
             <Main/>
-            <Footer/>
+            {/*<Footer/>*/}
         </div>
     );
 }

@@ -15,20 +15,18 @@ export default {
         },
         extend: {
             colors: {
-                firstColor: '#bc1052',
-                firstColorAlt: '#f377a7',
-                textColorLightTheme: '#605254',
-                textColorDarkTheme: '#c4babb',
-                titleColorLightTheme: '#2c2122',
-                titleColorDarkTheme: '#c4babb',
-                bodyColorLightTheme: '#fffafa',
-                bodyColorDarkTheme: '#1e0b0d',
+                firstColor: '#fff',
+                firstColorAlt: '#dedede',
+                textColorLightTheme: '#000',
+                textColorDarkTheme: '#fff',
+                bodyColorLightTheme: '#fff',
+                bodyColorDarkTheme: '#111',
                 containerColorLightTheme: '#fff',
-                containerColorDarkTheme: '#281517'
+                containerColorDarkTheme: '#181818'
             },
             boxShadow: {
-                lightTheme: '0 2px 4px #03030319',
-                darkTheme: '0 4px 4px #0A0A0A4C'
+                lightTheme: '0 2px 4px rgba(0, 0, 0, 0.1)',
+                darkTheme: '0 4px 8px rgba(0, 0, 0, 0.4)'
             }
         },
     },
