@@ -53,95 +53,95 @@ const projects = [
         ],
         links: ['https://github.com/erkindilekci/issue-tracker']
     },
-    {
-        title: 'Linea',
-        category: ['all', 'web'],
-        image: './projects/linea.png',
-        technologies: [
-            'Vite',
-            'React',
-            'TypeScript',
-            'Rough.js',
-            'CSS',
-            'Vitest',
-            'Cypress',
-        ],
-        links: ['https://github.com/erkindilekci/linea', 'https://erkindilekci-linea.vercel.app/']
-    },
-    {
-        title: 'Vibe Station',
-        category: ['all', 'web'],
-        image: './projects/vibestation.png',
-        technologies: [
-            'Vite',
-            'JavaScript',
-            'React',
-            'Redux',
-            'Tailwind CSS',
-        ],
-        links: ['https://github.com/erkindilekci/vibe-station', 'https://vibe-station.netlify.app']
-    },
-    {
-        title: 'Factopedia',
-        category: ['all', 'web'],
-        image: './projects/factopedia.png',
-        technologies: [
-            'Vite',
-            'JavaScript',
-            'CSS',
-            'React',
-            'Supabase'
-        ],
-        links: ['https://github.com/erkindilekci/factopedia', 'https://erkindilekci-factopedia.netlify.app/']
-    },
-    {
-        title: 'Garnish',
-        category: ['all', 'web'],
-        image: './projects/foodorderapp.png',
-        technologies: [
-            'Vite',
-            'JavaScript',
-            'CSS',
-            'React',
-            'Node.js',
-            'Express.js',
-        ],
-        links: ['https://github.com/erkindilekci/garnish']
-    },
-    {
-        title: 'Place Picker',
-        category: ['all', 'web'],
-        image: './projects/placepicker.png',
-        technologies: [
-            'Vite',
-            'JavaScript',
-            'CSS',
-            'React',
-            'Node.js',
-            'Express.js',
-        ],
-        links: ['https://github.com/erkindilekci/place-picker']
-    },
-    {
-        title: 'Boruto Book',
-        category: ['all', 'mobile'],
-        image: './projects/boruto.png',
-        technologies: [
-            'Kotlin',
-            'Jetpack Compose',
-            'Coroutines',
-            'Flows',
-            'Ktor',
-            'Koin',
-            'Clean Architecture',
-            'MVVM',
-            'Navigation',
-            'Retrofit',
-            'Coil',
-            'Room'
-        ],
-        links: ['https://github.com/erkindilekci/BorutoBook']
-    },
+    // {
+    //     title: 'Linea',
+    //     category: ['all', 'web'],
+    //     image: './projects/linea.png',
+    //     technologies: [
+    //         'Vite',
+    //         'React',
+    //         'TypeScript',
+    //         'Rough.js',
+    //         'CSS',
+    //         'Vitest',
+    //         'Cypress',
+    //     ],
+    //     links: ['https://github.com/erkindilekci/linea', 'https://erkindilekci-linea.vercel.app/']
+    // },
+    // {
+    //     title: 'Vibe Station',
+    //     category: ['all', 'web'],
+    //     image: './projects/vibestation.png',
+    //     technologies: [
+    //         'Vite',
+    //         'JavaScript',
+    //         'React',
+    //         'Redux',
+    //         'Tailwind CSS',
+    //     ],
+    //     links: ['https://github.com/erkindilekci/vibe-station', 'https://vibe-station.netlify.app']
+    // },
+    // {
+    //     title: 'Factopedia',
+    //     category: ['all', 'web'],
+    //     image: './projects/factopedia.png',
+    //     technologies: [
+    //         'Vite',
+    //         'JavaScript',
+    //         'CSS',
+    //         'React',
+    //         'Supabase'
+    //     ],
+    //     links: ['https://github.com/erkindilekci/factopedia', 'https://erkindilekci-factopedia.netlify.app/']
+    // },
+    // {
+    //     title: 'Garnish',
+    //     category: ['all', 'web'],
+    //     image: './projects/foodorderapp.png',
+    //     technologies: [
+    //         'Vite',
+    //         'JavaScript',
+    //         'CSS',
+    //         'React',
+    //         'Node.js',
+    //         'Express.js',
+    //     ],
+    //     links: ['https://github.com/erkindilekci/garnish']
+    // },
+    // {
+    //     title: 'Place Picker',
+    //     category: ['all', 'web'],
+    //     image: './projects/placepicker.png',
+    //     technologies: [
+    //         'Vite',
+    //         'JavaScript',
+    //         'CSS',
+    //         'React',
+    //         'Node.js',
+    //         'Express.js',
+    //     ],
+    //     links: ['https://github.com/erkindilekci/place-picker']
+    // },
+    // {
+    //     title: 'Boruto Book',
+    //     category: ['all', 'mobile'],
+    //     image: './projects/boruto.png',
+    //     technologies: [
+    //         'Kotlin',
+    //         'Jetpack Compose',
+    //         'Coroutines',
+    //         'Flows',
+    //         'Ktor',
+    //         'Koin',
+    //         'Clean Architecture',
+    //         'MVVM',
+    //         'Navigation',
+    //         'Retrofit',
+    //         'Coil',
+    //         'Room'
+    //     ],
+    //     links: ['https://github.com/erkindilekci/BorutoBook']
+    // },
     {
         title: 'Life Log',
         category: ['all', 'mobile'],
@@ -181,29 +181,29 @@ const projects = [
         ],
         links: ['https://github.com/erkindilekci/JavaChatSphere']
     },
-    {
-        title: 'Crypto Balance Tracker',
-        category: ['all', 'mobile'],
-        image: './projects/cfm.png',
-        technologies: [
-            'Kotlin',
-            'Jetpack Compose',
-            'Firebase',
-            'DataStore',
-            'WorkManager',
-            'Dagger-Hilt',
-            'Multi-Module',
-            'Room',
-            'Retrofit',
-            'Coroutines',
-            'Flows',
-            'Gson',
-            'Clean Architecture',
-            'MVVM',
-            'Navigation'
-        ],
-        links: ['https://github.com/erkindilekci/CryptoBalanceTracker']
-    },
+    // {
+    //     title: 'Crypto Balance Tracker',
+    //     category: ['all', 'mobile'],
+    //     image: './projects/cfm.png',
+    //     technologies: [
+    //         'Kotlin',
+    //         'Jetpack Compose',
+    //         'Firebase',
+    //         'DataStore',
+    //         'WorkManager',
+    //         'Dagger-Hilt',
+    //         'Multi-Module',
+    //         'Room',
+    //         'Retrofit',
+    //         'Coroutines',
+    //         'Flows',
+    //         'Gson',
+    //         'Clean Architecture',
+    //         'MVVM',
+    //         'Navigation'
+    //     ],
+    //     links: ['https://github.com/erkindilekci/CryptoBalanceTracker']
+    // },
     // {
     //     title: 'News App',
     //     category: ['all', 'mobile'],
@@ -227,47 +227,47 @@ const projects = [
     //     ],
     //     links: ['https://github.com/erkindilekci/NewsApp']
     // },
-    {
-        title: 'Vocabulary Book',
-        category: ['all', 'mobile'],
-        image: './projects/vocabulary.png',
-        technologies: [
-            'Kotlin',
-            'Jetpack Compose',
-            'Room',
-            'Coil',
-            'Dagger-Hilt',
-            'Coroutines',
-            'Flows',
-            'Navigation',
-            'Clean Architecture',
-            'MVVM',
-            'Unit Testing',
-            'End-to-End Testing'
-        ],
-        links: ['https://github.com/erkindilekci/VocabularyBook']
-    },
-    {
-        title: 'To-Do Book',
-        category: ['all', 'mobile'],
-        image: './projects/todobook.png',
-        technologies: [
-            'Kotlin',
-            'Jetpack Compose',
-            'Room',
-            'Clean Architecture',
-            'Animation',
-            'SplashScreen',
-            'Navigation',
-            'SharedViewModel',
-            'MVVM',
-            'Coroutines',
-            'Flow',
-            'Dagger-Hilt',
-            'DataStore'
-        ],
-        links: ['https://github.com/erkindilekci/ToDoBook']
-    },
+    // {
+    //     title: 'Vocabulary Book',
+    //     category: ['all', 'mobile'],
+    //     image: './projects/vocabulary.png',
+    //     technologies: [
+    //         'Kotlin',
+    //         'Jetpack Compose',
+    //         'Room',
+    //         'Coil',
+    //         'Dagger-Hilt',
+    //         'Coroutines',
+    //         'Flows',
+    //         'Navigation',
+    //         'Clean Architecture',
+    //         'MVVM',
+    //         'Unit Testing',
+    //         'End-to-End Testing'
+    //     ],
+    //     links: ['https://github.com/erkindilekci/VocabularyBook']
+    // },
+    // {
+    //     title: 'To-Do Book',
+    //     category: ['all', 'mobile'],
+    //     image: './projects/todobook.png',
+    //     technologies: [
+    //         'Kotlin',
+    //         'Jetpack Compose',
+    //         'Room',
+    //         'Clean Architecture',
+    //         'Animation',
+    //         'SplashScreen',
+    //         'Navigation',
+    //         'SharedViewModel',
+    //         'MVVM',
+    //         'Coroutines',
+    //         'Flow',
+    //         'Dagger-Hilt',
+    //         'DataStore'
+    //     ],
+    //     links: ['https://github.com/erkindilekci/ToDoBook']
+    // },
     // {
     //     title: 'Text Book',
     //     category: ['all', 'mobile'],
@@ -356,8 +356,7 @@ const projects = [
         technologies: [
             'Kotlin',
             'Jetpack Compose',
-            'Ktor Server',
-            'Ktor Client',
+            'Ktor',
             'Serialization',
             'Coroutines',
             'Flows',
@@ -366,39 +365,39 @@ const projects = [
         ],
         links: ['https://github.com/erkindilekci/TicTacGo']
     },
-    {
-        title: 'Parking Spot Finder',
-        category: ['all', 'mobile'],
-        image: './projects/parkingspotfinder.png',
-        technologies: [
-            'Kotlin',
-            'Jetpack Compose',
-            'Google Maps',
-            'Coroutines',
-            'Flows',
-            'Dagger-Hilt',
-            'Room',
-            'MVVM',
-            'Clean Architecture'
-        ],
-        links: ['https://github.com/erkindilekci/ParkingSpotFinder']
-    },
-    {
-        title: 'GraphQL Country Explorer',
-        category: ['all', 'mobile'],
-        image: './projects/graph.png',
-        technologies: [
-            'Kotlin',
-            'Jetpack Compose',
-            'GraphQL',
-            'Coroutines',
-            'Flows',
-            'MVVM',
-            'Clean Architecture',
-            'Dagger-Hilt'
-        ],
-        links: ['https://github.com/erkindilekci/GraphQLCountryExplorer']
-    },
+    // {
+    //     title: 'Parking Spot Finder',
+    //     category: ['all', 'mobile'],
+    //     image: './projects/parkingspotfinder.png',
+    //     technologies: [
+    //         'Kotlin',
+    //         'Jetpack Compose',
+    //         'Google Maps',
+    //         'Coroutines',
+    //         'Flows',
+    //         'Dagger-Hilt',
+    //         'Room',
+    //         'MVVM',
+    //         'Clean Architecture'
+    //     ],
+    //     links: ['https://github.com/erkindilekci/ParkingSpotFinder']
+    // },
+    // {
+    //     title: 'GraphQL Country Explorer',
+    //     category: ['all', 'mobile'],
+    //     image: './projects/graph.png',
+    //     technologies: [
+    //         'Kotlin',
+    //         'Jetpack Compose',
+    //         'GraphQL',
+    //         'Coroutines',
+    //         'Flows',
+    //         'MVVM',
+    //         'Clean Architecture',
+    //         'Dagger-Hilt'
+    //     ],
+    //     links: ['https://github.com/erkindilekci/GraphQLCountryExplorer']
+    // },
     // {
     //     title: 'Chat Wave',
     //     category: ['all', 'mobile'],
