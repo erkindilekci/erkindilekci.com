@@ -5,15 +5,13 @@ const skills = [
             "Java",
             "Spring Boot",
             "Go",
-            "Node.js",
+            "AWS",
             "Next.js",
-            "Express.js",
             "MySQL",
             "PostgreSQL",
             "MongoDB",
             "Kotlin",
             "Ktor",
-            "Mongoose",
             "GraphQL",
             "Firebase",
         ]
@@ -63,13 +61,16 @@ const skills = [
     {
         "title": "tools",
         "skills": [
+            "Docker",
             "Git",
             "GitHub",
             "Intellij IDEA",
+            "GoLand",
             "Android Studio",
             "WebStorm",
             "VS Code",
             "Postman",
+            "Insomnia",
             "Heroku",
             "Netlify",
             "Vercel"

@@ -15,7 +15,7 @@ const projects = [
             'React',
             'CSS'
         ],
-        links: ['https://github.com/erkindilekci/visi-vault']
+        links: ['https://visi-vault.netlify.app', 'https://github.com/erkindilekci/visi-vault']
     },
     {
         title: 'Moviewise',
@@ -51,7 +51,7 @@ const projects = [
             'Prisma',
             'PostgreSQL'
         ],
-        links: ['https://github.com/erkindilekci/issue-tracker', 'https://erkindilekci-issue-tracker.vercel.app']
+        links: ['https://github.com/erkindilekci/issue-tracker']
     },
     {
         title: 'Linea',

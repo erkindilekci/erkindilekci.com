@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a8494f-05f8-4e9e-9792-9aa286c7225f" name="Changes" comment="Refactor code to convert colors to black and white">
+    <list default="true" id="17a8494f-05f8-4e9e-9792-9aa286c7225f" name="Changes" comment="Disable custom scrollbar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/skills.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +42,23 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Erkin/WebstormProjects/employee-management-frontend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Erkin/WebstormProjects/employee-management-frontend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -153,7 +154,11 @@
       <workItem from="1713265130286" duration="22000" />
       <workItem from="1723192380643" duration="11004000" />
       <workItem from="1723211446579" duration="354000" />
-      <workItem from="1723211925585" duration="1368000" />
+      <workItem from="1723211925585" duration="1410000" />
+      <workItem from="1723284477169" duration="1358000" />
+      <workItem from="1723299051646" duration="8000" />
+      <workItem from="1723305571065" duration="13000" />
+      <workItem from="1723358642729" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="Update package.json">
       <option name="closed" value="true" />
@@ -275,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723211794509</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Disable custom scrollbar">
+      <option name="closed" value="true" />
+      <created>1723213362344</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723213362344</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +319,7 @@
     <MESSAGE value="Add new projects" />
     <MESSAGE value="Update projects.js" />
     <MESSAGE value="Refactor code to convert colors to black and white" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor code to convert colors to black and white" />
+    <MESSAGE value="Disable custom scrollbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Disable custom scrollbar" />
   </component>
 </project>
