@@ -1,5 +1,23 @@
 const projects = [
     {
+        title: 'Inventory Management System',
+        category: ['all', 'web'],
+        image: './projects/ims.png',
+        technologies: [
+            'Go',
+            'PostgreSQL',
+            'Echo',
+            'github.com/golang-jwt/jwt',
+            'github.com/jackc/pgx',
+            'github.com/labstack/gommon',
+            'React',
+            'TypeScript',
+            'Tailwind CSS',
+            'js-cookie'
+        ],
+        links: ['https://github.com/erkindilekci/inventory-management-system']
+    },
+    {
         title: 'Visi Vault',
         category: ['all', 'web'],
         image: './projects/visivault.png',
