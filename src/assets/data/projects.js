@@ -15,7 +15,7 @@ const projects = [
             'Tailwind CSS',
             'js-cookie'
         ],
-        links: ['https://github.com/erkindilekci/inventory-management-system']
+        links: ['https://erkindilekci-ims.netlify.app/', 'https://github.com/erkindilekci/inventory-management-system']
     },
     {
         title: 'Visi Vault',
