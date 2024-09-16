@@ -1,5 +1,26 @@
 const projects = [
     {
+        title: 'Cinebase',
+        category: ['all', 'web'],
+        image: './projects/cinebase.png',
+        technologies: [
+            'Go',
+            'PostgreSQL',
+            'Echo',
+            'GraphQL',
+            'JWT',
+            'React',
+            'TypeScript',
+            'React Router',
+            'React (TanStack) Query',
+            'Zod',
+            'Tailwind CSS',
+            'Radix UI',
+            'shadcn/ui',
+        ],
+        links: ['https://erkindilekci-cinebase.netlify.app/', 'https://github.com/erkindilekci/cinebase']
+    },
+    {
         title: 'Inventory Management System',
         category: ['all', 'web'],
         image: './projects/ims.png',
@@ -7,9 +28,7 @@ const projects = [
             'Go',
             'PostgreSQL',
             'Echo',
-            'github.com/golang-jwt/jwt',
-            'github.com/jackc/pgx',
-            'github.com/labstack/gommon',
+            'JWT',
             'React',
             'TypeScript',
             'Tailwind CSS',
