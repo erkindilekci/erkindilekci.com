@@ -18,7 +18,7 @@ const projects = [
             'Radix UI',
             'shadcn/ui',
         ],
-        links: ['https://erkindilekci-cinebase.netlify.app/', 'https://github.com/erkindilekci/cinebase']
+        links: [ 'https://github.com/erkindilekci/cinebase', 'https://erkindilekci-cinebase.netlify.app/']
     },
     {
         title: 'Inventory Management System',
