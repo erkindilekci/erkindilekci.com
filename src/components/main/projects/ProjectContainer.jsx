@@ -1,14 +1,14 @@
 import { useState } from "react";
 
 function ProjectContainer({ project, hasTouchScreen }) {
-    const [isHovering, setIsHovering] = useState(false);
+    const [isHovering, setIsHovering] = useState(true);
 
     return (
         <div
             className="flex overflow-hidden w-auto flex-col justify-between rounded-3xl p-6 shadow-lightTheme dark:shadow-darkTheme transition-all max-w-72 bg-containerColorLightTheme dark:bg-containerColorDarkTheme"
-            onMouseEnter={() => !hasTouchScreen && setIsHovering(true)}
-            onMouseLeave={() => !hasTouchScreen && setIsHovering(false)}
-            onClick={() => hasTouchScreen && setIsHovering(isClicked => !isClicked)}
+            // onMouseEnter={() => !hasTouchScreen && setIsHovering(true)}
+            // onMouseLeave={() => !hasTouchScreen && setIsHovering(false)}
+            // onClick={() => hasTouchScreen && setIsHovering(isClicked => !isClicked)}
         >
             <div>
                 {project.image && <img className="rounded-md transition-all" src={project.image} alt={project.title}/>}

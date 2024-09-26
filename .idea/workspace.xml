@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a8494f-05f8-4e9e-9792-9aa286c7225f" name="Changes" comment="Update projects.js">
-      <change afterPath="$PROJECT_DIR$/public/projects/cinebase.png" afterDir="false" />
+    <list default="true" id="17a8494f-05f8-4e9e-9792-9aa286c7225f" name="Changes" comment="Update resume">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/data/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/projects/ProjectContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/projects/ProjectContainer.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Jetbrains/WebstormProjects/erkindilekci-portfolio-website-son-hali/public/projects&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Jetbrains/WebstormProjects/erkindilekci-portfolio-website-son-hali/public&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -70,11 +69,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Jetbrains\WebstormProjects\erkindilekci-portfolio-website-son-hali\public" />
       <recent name="D:\Jetbrains\WebstormProjects\erkindilekci-portfolio-website-son-hali\public\projects" />
       <recent name="C:\Users\Erkin\WebstormProjects\erkindilekci-portfolio-website-son-hali\public" />
       <recent name="C:\Users\Erkin\WebstormProjects\erkindilekci-portfolio-website-son-hali\public\projects" />
       <recent name="C:\Users\Erkin\WebstormProjects\website-react\public" />
-      <recent name="C:\Users\Erkin\WebstormProjects\website-react\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Jetbrains\WebstormProjects\erkindilekci-portfolio-website-son-hali\public\projects" />
@@ -99,7 +98,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.22855.79" />
       </set>
     </attachedChunks>
   </component>
@@ -172,6 +171,12 @@
       <workItem from="1725296108252" duration="4000" />
       <workItem from="1725353811960" duration="27000" />
       <workItem from="1726481060467" duration="73000" />
+      <workItem from="1726652347305" duration="50000" />
+      <workItem from="1726812463735" duration="122000" />
+      <workItem from="1726812629649" duration="15000" />
+      <workItem from="1727345424152" duration="24000" />
+      <workItem from="1727345457397" duration="32000" />
+      <workItem from="1727345512048" duration="644000" />
     </task>
     <task id="LOCAL-00001" summary="Update package.json">
       <option name="closed" value="true" />
@@ -333,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725353834784</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Update resume">
+      <option name="closed" value="true" />
+      <created>1726652382805</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1726652382805</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,6 +379,7 @@
     <MESSAGE value="Disable custom scrollbar" />
     <MESSAGE value="Update projects.js and skills.js" />
     <MESSAGE value="Update projects.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update projects.js" />
+    <MESSAGE value="Update resume" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update resume" />
   </component>
 </project>
