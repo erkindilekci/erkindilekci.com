@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a8494f-05f8-4e9e-9792-9aa286c7225f" name="Changes" comment="Update projects section to always show link buttons">
+    <list default="true" id="17a8494f-05f8-4e9e-9792-9aa286c7225f" name="Changes" comment="Update resume">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +97,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.22855.79" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
       </set>
     </attachedChunks>
   </component>
@@ -177,6 +177,10 @@
       <workItem from="1727345457397" duration="32000" />
       <workItem from="1727345512048" duration="722000" />
       <workItem from="1727347778656" duration="600000" />
+      <workItem from="1727628719985" duration="39000" />
+      <workItem from="1727942945590" duration="27000" />
+      <workItem from="1728019329234" duration="87000" />
+      <workItem from="1728019475749" duration="194000" />
     </task>
     <task id="LOCAL-00001" summary="Update package.json">
       <option name="closed" value="true" />
@@ -354,7 +358,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727346777549</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Update resume">
+      <option name="closed" value="true" />
+      <created>1727628752915</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1727628752915</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,8 +399,8 @@
     <MESSAGE value="Disable custom scrollbar" />
     <MESSAGE value="Update projects.js and skills.js" />
     <MESSAGE value="Update projects.js" />
-    <MESSAGE value="Update resume" />
     <MESSAGE value="Update projects section to always show link buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update projects section to always show link buttons" />
+    <MESSAGE value="Update resume" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update resume" />
   </component>
 </project>
