@@ -6,6 +6,20 @@ import reactRefresh from "eslint-plugin-react-refresh";
 const browserGlobals = {
     document: "readonly",
     window: "readonly",
+    navigator: "readonly",
+    performance: "readonly",
+    requestAnimationFrame: "readonly",
+    cancelAnimationFrame: "readonly",
+    setTimeout: "readonly",
+    clearTimeout: "readonly",
+    setInterval: "readonly",
+    clearInterval: "readonly",
+    IntersectionObserver: "readonly",
+    ResizeObserver: "readonly",
+    URL: "readonly",
+    URLSearchParams: "readonly",
+    console: "readonly",
+    fetch: "readonly",
 };
 
 export default [

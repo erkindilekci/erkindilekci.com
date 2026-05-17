@@ -7,16 +7,18 @@ import Hero from "./Hero.jsx";
 import Projects from "./Projects.jsx";
 import Resume from "./Resume.jsx";
 import Skills from "./Skills.jsx";
+import WhatIBuild from "./WhatIBuild.jsx";
 
 export default function Main() {
     return (
         <main>
             <Hero />
             <About />
+            <WhatIBuild />
             <Skills />
             <Projects />
-            <Experience />
             <CaseStudies />
+            <Experience />
             <Resume />
             <Certifications />
             <Contact />

@@ -1,60 +1,97 @@
-import { BiBuilding, BiCalendar } from "react-icons/bi";
+import { useInView } from "../../hooks/useInView.js";
 import experience from "../../assets/data/experience.js";
 import SectionHeading from "./SectionHeading.jsx";
 
+const commitHashes = ["a3f9e21", "b7c4d18", "c2e8f05", "d6a1b93"];
+
 export default function Experience() {
+    const [headingRef, headingInView] = useInView(0.1);
+    const [terminalRef, terminalInView] = useInView(0.08);
+
     return (
-        <section id="experience" className="px-4 py-16 sm:px-6 md:py-24">
+        <section id="experience" className="border-t border-slate-800 px-4 py-16 sm:px-6 md:py-24">
             <div className="mx-auto max-w-6xl">
-                <SectionHeading
-                    eyebrow="Experience"
-                    title="Hands-on analytics work across operations and IT."
-                    description="A concise timeline of roles where data, automation, reporting, and production context meet."
-                />
+                <div
+                    ref={headingRef}
+                    style={{
+                        opacity: headingInView ? 1 : 0,
+                        transform: headingInView ? "translateY(0)" : "translateY(16px)",
+                        transition: "opacity 0.6s ease, transform 0.6s ease",
+                    }}
+                >
+                    <SectionHeading
+                        eyebrow="Experience"
+                        title="Data & analytics work across operations and IT."
+                        description="A concise timeline of roles where data engineering, reporting automation, and analytics meet real business contexts."
+                    />
+                </div>
 
-                <div className="relative">
-                    {/* Vertical connector line */}
-                    <div className="absolute bottom-0 left-4 top-4 hidden w-px bg-gradient-to-b from-emerald-500/60 via-blue-500/30 to-transparent sm:block" />
+                {/* Git-log terminal */}
+                <div
+                    ref={terminalRef}
+                    className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 font-mono shadow-2xl"
+                    style={{
+                        opacity: terminalInView ? 1 : 0,
+                        transform: terminalInView ? "translateY(0)" : "translateY(24px)",
+                        transition: "opacity 0.7s ease 0.1s, transform 0.7s ease 0.1s",
+                    }}
+                >
+                    {/* Title bar */}
+                    <div className="flex items-center gap-2 border-b border-slate-800 bg-slate-900 px-5 py-3">
+                        <span className="h-2.5 w-2.5 rounded-full bg-red-500/80" />
+                        <span className="h-2.5 w-2.5 rounded-full bg-yellow-500/80" />
+                        <span className="h-2.5 w-2.5 rounded-full bg-emerald-500/80" />
+                        <span className="ml-3 text-xs text-slate-500">
+                            <span className="text-emerald-500">erkin</span>
+                            <span className="text-slate-600">@</span>
+                            <span className="text-blue-400">portfolio</span>
+                            <span className="text-slate-600">:</span>
+                            <span className="text-violet-400">~/career</span>
+                            <span className="text-slate-400"> $ git log --oneline --decorate</span>
+                        </span>
+                    </div>
 
-                    <div className="flex flex-col gap-8">
-                        {experience.map((item) => (
-                            <div key={`${item.role}-${item.company}`} className="relative flex gap-6 sm:gap-8">
-                                {/* Timeline dot */}
-                                <div className="hidden flex-none flex-col items-center sm:flex">
-                                    <div className="relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-2 border-emerald-500/40 bg-slate-900">
-                                        <div className="h-2.5 w-2.5 rounded-full bg-emerald-400" />
-                                    </div>
+                    {/* Commit log */}
+                    <div className="divide-y divide-slate-800/40 px-4 sm:px-6">
+                        {experience.map((item, i) => (
+                            <div key={`${item.role}-${item.company}`} className="py-5 sm:py-6">
+                                <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1.5">
+                                    <span className="text-sm font-bold tracking-wide text-amber-400">
+                                        {commitHashes[i % commitHashes.length]}
+                                    </span>
+                                    {i === 0 && (
+                                        <span className="rounded border border-emerald-500/40 bg-emerald-500/10 px-2 py-0.5 text-xs font-bold text-emerald-400">
+                                            HEAD → main
+                                        </span>
+                                    )}
+                                    <span className="text-sm font-semibold text-slate-100">{item.role}</span>
+                                    <span className="text-sm text-blue-400">@ {item.company}</span>
+                                    <span className="ml-auto text-xs text-slate-600">{item.period}</span>
                                 </div>
 
-                                {/* Card */}
-                                <article className="flex-1 -mt-1 overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-sm transition hover:border-emerald-500/30 hover:shadow-lg hover:shadow-slate-900/50">
-                                    <div className="h-0.5 bg-gradient-to-r from-emerald-500 to-blue-500/50" />
-                                    <div className="p-5 sm:p-6">
-                                        <div className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
-                                            <div>
-                                                <h3 className="text-lg font-semibold text-slate-100">{item.role}</h3>
-                                                <p className="mt-1.5 flex items-center gap-1.5 text-sm font-semibold text-emerald-400">
-                                                    <BiBuilding className="text-base" />
-                                                    {item.company}
-                                                </p>
-                                            </div>
-                                            <span className="inline-flex w-fit items-center gap-1.5 rounded-full border border-slate-700 bg-slate-800 px-3 py-1 text-xs font-semibold text-slate-400">
-                                                <BiCalendar className="text-sm" />
-                                                {item.period}
-                                            </span>
+                                <div className="mt-3 flex flex-col gap-1.5 border-l-2 border-slate-800 pl-4">
+                                    {item.bullets.map(bullet => (
+                                        <div key={bullet} className="flex gap-2.5 text-xs leading-6">
+                                            <span className="flex-none font-bold text-emerald-400">+</span>
+                                            <span className="text-slate-400">{bullet}</span>
                                         </div>
-                                        <ul className="mt-4 space-y-2.5 text-sm leading-6 text-slate-400">
-                                            {item.bullets.map(bullet => (
-                                                <li key={bullet} className="flex gap-3">
-                                                    <span className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-emerald-500" />
-                                                    <span>{bullet}</span>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                </article>
+                                    ))}
+                                </div>
                             </div>
                         ))}
+                    </div>
+
+                    {/* Blinking prompt */}
+                    <div className="border-t border-slate-800 px-4 py-3 sm:px-6">
+                        <span className="text-xs text-slate-500">
+                            <span className="text-emerald-500">erkin</span>
+                            <span className="text-slate-600">@</span>
+                            <span className="text-blue-400">portfolio</span>
+                            <span className="text-slate-600">:</span>
+                            <span className="text-violet-400">~/career</span>
+                            <span className="text-slate-400"> $ </span>
+                            <span className="inline-block h-3.5 w-1.5 translate-y-0.5 bg-emerald-400 animate-blink" />
+                        </span>
                     </div>
                 </div>
             </div>
