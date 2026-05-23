@@ -3,7 +3,7 @@ export const resumeUrl = "/ErkinDilekci.pdf";
 export const profile = {
     name: "Erkin Dilekçi",
     role: "Data Science & Analytics",
-    summary: "Industrial Engineering student building Python pipelines, BI dashboards, ML forecasting models, and automation tools that turn messy operational data into actionable decisions.",
+    summary: "Industrial Engineer specializing in Python automation, BI dashboards, ML forecasting, and data pipelines that transform messy operational data into actionable business decisions.",
     email: "dilekcierkin@gmail.com",
     linkedin: "https://www.linkedin.com/in/erkindilekci/",
     linkedinLabel: "linkedin.com/in/erkindilekci",
